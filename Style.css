@@ -1,0 +1,104 @@
+   * {
+       margin: 0px;
+       padding: 0px;
+       box-sizing: border-box;
+   }
+   
+   header {
+       background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./Img/rUJVwN.webp');
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center;
+       height: 100vh;
+   }
+   
+   .logo {
+       height: 200px;
+       width: 200px;
+       float: left;
+       margin-top: 10px;
+   }
+   
+   .main_nav {
+       float: right;
+       margin-top: 50px;
+       margin-right: 50px;
+   }
+   
+   li {
+       display: inline-block;
+       list-style: none;
+       margin-left: 20px;
+   }
+   
+   li a {
+       color: rgb(255, 254, 254);
+       text-decoration: none;
+       font-size: 16px;
+       color: rgb(252, 247, 247);
+       font-weight: 50%;
+       font-family: sans-serif;
+   }
+   
+   li a:hover {
+       border-bottom: 2px solid blueviolet;
+       color: aqua;
+   }
+   
+   .claerfix:after {
+       content: ".";
+       visibility: hidden;
+       display: block;
+       height: 0px;
+       clear: both;
+   }
+   
+   h1 {
+       margin-top: 60px;
+       margin-left: 40px;
+       font-family: 'Courier New', Courier, monospace;
+       font-size: 45px;
+       font-weight: bold;
+       color: rgb(253, 253, 251);
+       letter-spacing: 1px;
+       word-spacing: -15px;
+   }
+   
+   button {
+       margin-top: 30px;
+       margin-left: 40px;
+       padding: 20px;
+       border-radius: 20px;
+       width: 200px;
+       height: 60px;
+       background-color: transparent;
+       color: rgb(238, 217, 238);
+       font-size: 15px;
+       background-color: rgb(99, 98, 100);
+       border-style: none;
+       align-items: center;
+   }
+   
+   button:hover {
+       background-color: rgb(79, 217, 241);
+       color: black;
+   }
+   
+   .animation_ {
+       animation: color_change 1s infinite;
+   }
+   
+   @keyframes color_change {
+       0% {
+           color: blue;
+       }
+       25% {
+           color: blueviolet;
+       }
+       50% {
+           color: chartreuse;
+       }
+       100% {
+           color: cyan;
+       }
+   }
